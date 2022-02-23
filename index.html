@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="viewport">
+
+    <section id="section1" class="menul"><h1> MI  &nbsp  &nbsp   <br>ZU<br>WARI</h1><h1 class="menut">MENUS</h1></section>
+
+    <button id="section2Btn" class="bookl"> BOOK</button>
+
+    <div class="wrapper" id="content">
+        <!-- <div class="wrap2"> -->
+
+        <!-- <button id="section1" class="menul">Section 1</button>
+
+        <button id="section2Btn" class="bookl"> Section 2</button> -->
+        
+        <div class="menu">
+
+
+
+        </div>
+
+        <section class="top ci">
+
+        <img class="canv ci#" src="Bar1webp.webp" alt="">
+
+            <h1 class="top1">
+                <!-- Perfectly crafted japenese highball. without leaving home -->
+      
+               bar in your glass<br>
+               
+        
+               <!-- let Cocktail Capital in<br> -->
+               
+
+            </h1>
+            <!-- <h1 class="top2">
+                MI  &nbsp  &nbsp   <br>ZU<br>WARI<br> &nbsp &nbsp </h1> -->
+
+        </section>
+
+        <!-- <img class="canv ci" src="canvas.png" alt=""> -->
+
+        <section class="bottom">
+
+            <div class="mizex dict1">
+                <h1 class="mizhead">{mizuwari}
+                    <!-- <h2 class="mizspell">Japanese:</h2> -->
+                </h1>
+                <h2 class="miztext">Originaly meaning "cut with water", a term is used to Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, mollitia distinctio non similique nostrum quidem commodi excepturi animi sit itaque!</h2>
+            </div>
+
+            <h1 class="bot1 ">
+                ONLY &nbsp &nbsp ONE &nbsp &nbsp &  &nbsp &nbsp  ONLY &nbsp &nbsp ONE &nbsp &nbsp & &nbsp &nbsp   ONLY &nbsp &nbsp ONE &nbsp &nbsp & &nbsp &nbsp   ONLY &nbsp &nbsp ONE &nbsp &nbsp & &nbsp &nbsp   ONLY &nbsp &nbsps ONE &nbsp &nbsp  &nbsp &nbsp   ONLY &nbsp &nbsp ONE &nbsp &nbsp  ONLY &nbsp &nbsp ONE &nbsp &nbsp  ONLY &nbsp &nbsp ONE &nbsp &nbsp 
+               <br> 
+               SHAPE &nbsp &nbsp STYLE &nbsp &nbsp  FORM &nbsp &nbsp WAY &nbsp &nbsp   SHAPE &nbsp &nbsp STYLE &nbsp &nbsp  FORM &nbsp &nbsp WAY &nbsp &nbsp 
+            </h1>
+            <!-- <h1 class="bot2">in right hands make<br>everyones favourite drinks</h1> -->
+            <!-- <h2 class="bot3">Mizuwari:<br><br>classic japnese highball<br>consisting of a spirit and soda,<br> mixed in perfect proportion <br> served ice cold  </h2> -->
+            <h1 class="bot4">CRAFTED</h1>
+            <h1 class="bot5">FOR A <br>PERFECT SERVE</h1>
+            <h1 class="bot6" id="b6">
+            EVERY TIME
+        </h1>
+
+<div class="scrollme" id="scrollme"></div>
+
+            <div class="mizumenu mizme" id="container" >
+
+                <div class="box b1" id="box1">Drag and throw me</div>
+		        <div class="box b2" id="box2" >Drag and throw me too</div>
+                <div class="box b3" id="box3">Drag and throw me</div>
+
+                <h1 class="menuh1">Have a scroll through our MENUS</h1>
+            </div>
+
+
+            <h1 class="bot7"> sharp, minimalist bar 
+                for all setting </h1>
+            <h1 class="bot8"> and the smallest ocasions<br> starting at 300£ </h1>
+
+        </section>
+
+        <footer id="section2">
+
+        </footer>
+
+        <!-- <canvas  class="n1 can1"  id="hero-lightpass"  data-scroll data-scroll-speed="-10" /> -->
+       <img   class="n1 can1"    src="Bar12webp.webp">  
+
+    <!-- </div> -->
+    </div>
+    
+    <script>
+        window.addEventListener("load",function() {
+	// Set a timeout...
+	setTimeout(function(){
+		// Hide the address bar!
+		window.scrollTo(0, 1);
+	}, 0);
+    </script>
+
+<script src="scrollani.js"></script>
+
+<script src="gsap/Draggable.min.js"></script>
+<script src="gsap/gsap.min.js"></script>
+<script src="gsap/ScrollTrigger.min.js"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/Draggable.min.js"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script> -->
+<script src="scrolltr.js"></script>
+<script src="scrollmenu.js"></script>
+<!-- <script src="scrollto.js"></script> -->
+
+<!-- <script>
+    document.getElementById("section1").addEventListener("click", function() {
+    alert("Hello World!");
+  });
+</script> -->
+
+
+<!-- <script>
+gsap.registerPlugin(ScrollTrigger);
+    
+  const tl = gsap.timeline({
+    scrollTrigger: {
+        trigger: ".mizme",
+        markers: true,
+        start: "top 55%",
+        end: "top 30%",
+        scrub: 1,
+        x: 300
+    }
+});
+
+tl.to(".mizme", {x: (ix, target) => gsap.getProperty(target, 'width') * -0.5 } )
+.to(".mizme", {x: (ix, target) => gsap.getProperty(target, 'width') * -0.5 } )
+    .to(".mizme", {x: 0} )
+
+</script> -->
+<!-- <script>
+    document.querySelectorAll("div button").forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    gsap.to(window, {duration: 1, scrollTo:{y:"#section" + (index + 1), offsetY:70}});
+  });
+});
+</script> -->
+
+</div>
+
+</body>
+</html>
