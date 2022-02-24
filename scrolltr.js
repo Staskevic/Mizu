@@ -326,7 +326,7 @@ tl2.to(".mizme", 0.6, {x: (ix, target) => gsap.getProperty(target, 'width') * -0
             // markers: true,
             pin: true,
             pinSpacing: false,
-            start: "bottom 100%",
+            start: "top 0%",
             end: "bottom -20%",
             scrub: true
         }
