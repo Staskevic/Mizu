@@ -31,7 +31,7 @@
 #viewport {
     overflow: hidden;
     position: sticky;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     top: 0;
     left: 0;
@@ -71,6 +71,14 @@
 .menut{
     font-size: min(12vw, 4rem); 
 }
+
+.menu{
+    position: fixed ;
+    top: 60vh;
+
+    z-index: 11;
+
+}
 .menul{
     display:inline-flex;
     position: fixed;
@@ -83,7 +91,7 @@
     left: 15vw;
     color: #69526d;   
     font-size: min(3vw, 1rem); 
-    z-index: 8;
+    z-index: 11;
     opacity: 0.8;
     text-align: left;
     line-height: 100%;

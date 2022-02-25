@@ -158,7 +158,7 @@ tl6.from(".menul",0.95, { clipPath:'polygon(0 0, 20% 0, 20% 100%, 0% 100%)', opa
  y: (iy, target) => gsap.getProperty(target, 'width') * .8,
  x: (ix, target) => gsap.getProperty(target, 'width') * 2.8 
  , scale:7} )
-      .to(".menul",{opacity:1, clipPath:'polygon(0 0, 100% 0, 100% 100%, 0% 100%)'});
+      tl6.to(".menul",{opacity:1, clipPath:'polygon(0 0, 100% 0, 100% 100%, 0% 100%)'});
 // .to(".mizme", {x: (ix, target) => gsap.getProperty(target, 'width') * -0.83 } )
 // .to(".dict1",0.7, {opacity: 1 });
 // .to(".dict1",0.2, {opacity: 0, x:-80});
@@ -178,6 +178,23 @@ gsap.to(".top1", {
   },
   // y: -150,
   opacity: 0
+ 
+}); 
+
+gsap.to(".menu", {
+  scrollTrigger: {
+      trigger: ".menu",
+      start:"top 60%", 
+      end: "top -800%",
+      scrub: true, 
+      pin: true,
+      pinSpacing: false,
+      // markers: true
+      // toggleActions: "restart reverse restart reverse" 
+      // play pause resume reverse restart reset complete none  
+
+  },
+  opacity: 1
  
 }); 
 
