@@ -7,7 +7,7 @@
 
         
         // Preloading images to drastically improve performance
-        const currentFrame = index => (`/image/mizgl-00${index.toString().padStart(3, '0')}.webp`);
+        const currentFrame = index => (`/webp2/mizgl-00${index.toString().padStart(3, '0')}.webp`);
         const frameCount = 417; // There 148 images for that animation-sequence to load
         const images = [];
 
